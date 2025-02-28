@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Input and output file paths
-INPUT_FILE="/home/shivansh/Downloads/chats/whatsapp.txt"  # Update with actual chat file location
-OUTPUT_FILE="/home/shivansh/Downloads/output.jsonl"
+INPUT_FILE="/path/to/whatsapp.txt"  # Update with actual chat file location
+OUTPUT_FILE="/path/to/output.jsonl"
 
 # Expanded regex to remove all URLs (Spotify, Hauntrex, NewMe, etc.)
 URL_PATTERN="(https?://)?(www[.])?(youtube[.]com|youtu[.]be|instagram[.]com|facebook[.]com|twitter[.]com|linkedin[.]com|google[.]com|t[.]co|bit[.]ly|goo[.]gl|reddit[.]com|tiktok[.]com|discord[.]gg|twitch[.]tv|pinterest[.]com|spotify[.]com|hauntrex[.]com|newme[.]com|soundcloud[.]com|snapchat[.]com|telegram[.]me|threads[.]net|medium[.]com|quora[.]com|tumblr[.]com|onlyfans[.]com|patreon[.]com|kickstarter[.]com|indiegogo[.]com|weibo[.]com|wechat[.]com|strava[.]com|bandcamp[.]com|curiouscat[.]com|substack[.]com|paypal[.]me|ko-fi[.]com|buymeacoffee[.]com|venmo[.]com|cashapp[.]com)[^ ]*"
